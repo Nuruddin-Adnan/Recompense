@@ -1,26 +1,26 @@
-.footer-button{
+.footer-button {
    font-family: 'CenturyGothic';
    font-size: 90px;
    color: #fff;
-   background: linear-gradient( 0deg, rgb(3,108,142) 0%, rgb(5,59,94) 100%);
-   box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3);
-   margin: 10px;  
+   background: linear-gradient(0deg, rgb(3, 108, 142) 0%, rgb(5, 59, 94) 100%);
+   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+   margin: 10px;
    padding: 10px;
-   transition: all 0.3s ease-in-out; 
+   transition: all 0.3s ease-in-out;
    display: inline-block;
    min-width: 300px;
 
-   @media screen and (max-width: 767px){
+   @media screen and (max-width: 767px) {
       font-size: 40px;
-   } 
+   }
 
-   &:hover{
+   &:hover {
       background: #fff;
       color: #ee84f2;
    }
 }
 
-.btn-blue{
+.btn-blue {
    font-family: Arial, Helvetica, sans-serif;
    font-weight: 500;
    font-size: 26px;
@@ -30,28 +30,28 @@
    margin-top: 5px;
    border-radius: 0;
 
-   @media screen  and (max-width: 1399px){
-      font-size: 20px;     
+   @media screen and (max-width: 1399px) {
+      font-size: 20px;
    }
 
-   @media screen  and (max-width: 575px){
-      font-size: 16px;     
+   @media screen and (max-width: 575px) {
+      font-size: 16px;
    }
 }
 
-.button-groups{
-   .button-parent{
-      background: rgb(54,4,70);
-      background: linear-gradient(90deg, rgba(54,4,70,1) 0%, rgba(255,255,255,1) 50%, rgba(53,3,69,1) 100%);
+.button-groups {
+   .button-parent {
+      // background: rgb(54,4,70);
+      background: linear-gradient(90deg, #350445 0%, #fdfcfd 50%, #350445 100%);
       padding: 5px;
-   
-      @media screen  and (max-width: 991px){
+
+      @media screen and (max-width: 991px) {
          padding: 3px;
       }
-      
-      .btn-transactions{
-         color: #580672;
-         background: #fff;
+
+      .btn-transactions {
+         color: $color-white;
+         background: linear-gradient(90deg, #41557a 0%, #4d517f 50%, #41557a 100%);
          font-family: 'TahomaBold';
          font-size: 24px;
          border-radius: 0;
@@ -59,17 +59,17 @@
          width: 100%;
          display: block;
 
-         &:hover{
-            background: linear-gradient(90deg, rgba(54,4,70,0.8) 0%, rgba(53,3,69,0.8) 100%);
+         &:hover {
+            background: linear-gradient(90deg, #350445 0%, #4d517f 50%, #350445 100%);
             color: #fff;
          }
-         
-         @media screen  and (max-width: 1399px){
-            font-size: 20px;     
+
+         @media screen and (max-width: 1399px) {
+            font-size: 20px;
          }
-   
-         @media screen  and (max-width: 991px){
-            font-size: 16px;     
+
+         @media screen and (max-width: 991px) {
+            font-size: 16px;
          }
       }
    }
