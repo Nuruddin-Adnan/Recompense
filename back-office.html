@@ -5,20 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Recompense | Back Office</title>
+  <title>Back Office</title>
   <link rel='shortcut icon' href='assets/images/homepage-image/logo.png' type='image/x-icon'>
   <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="back-office" style="background: linear-gradient(270deg, #89008b, #003251);">
+<body class="back-office">
   <!-- header -->
-  <header class="header fixed-top py-1 backoffice-header">
+  <header class="header fixed-top py-1 backoffice-header shadow-sm">
     <div class="container-fluid">
       <div class="header-content d-flex align-items-center mx-0 mx-xl-4">
-        <img class="img-fluid brand-logo" src="assets/images/backoffice/logo2-blk.png" alt="logo">
-        <h1 class="text-center heading d-xl-block d-none mx-auto">WELCOME - YOUR NAME</h1>
+        <img class="img-fluid brand-logo" src="assets/images/backoffice/logo-sm.png" alt="logo">
+        <h1 class="text-center heading d-xl-block d-none mx-auto">WELCOME - &lt;NAME HERE&gt;
+        </h1>
         <div class="d-xl-none d-flex align-items-center ms-auto">
           <i class="far fa-bars fs-1 pe-3 d-xl-none" id="side-nav-toggle" onclick="sideNavToogle();"></i>
           <a href="#"><img class="img-fluid profile-image" src="assets/images/backoffice/avatar.png" alt="avatar"></a>
@@ -51,114 +52,47 @@
     <!-- sidenav ended here -->
 
     <!-- all inner contents goes here -->
-    <main class="main-body pt-4">
+    <main class="main-body">
       <div class="container-fluid px-4">
-        <div class="spnsor-n-profile">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="sponsor-details">
-                <div class="row">
-                  <div class="col-9">
-                    <div class="text">
-                      <h2>YOUR SPONSOR</h2>
-                      <p class="sp-name">Name: SPName</p>
-                      <p class="sp-username">Username: SP USername</p>
-                      <p class="sp-email">Email: SPemail</p>
-                    </div>
-                  </div>
-                  <div class="col-3">
-                    <div class="avatar text-end">
-                      <img class="img-fluid avatar" src="assets/images/backoffice/avatar.png" alt="avatar">
-                    </div>
-                  </div>
+        <div class="row align-items-center">
+          <div class="col-xl-4 order-xl-1 order-2 mt-xl-0 mt-4 mb-xl-0 mb-5">
+            <div class="button-groups row gy-4 justify-content-between">
+              <div class="col-md-12">
+                <div class="button-parent">
+                  <a href="#" class="btn btn-transactions">1. MAKE DEPOSIT</a>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="button-parent">
+                  <a href="#" class="btn btn-transactions">2. ACTIVATE POSITION</a>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="button-parent">
+                  <a href="#" class="btn btn-transactions">3. WITHDRAW</a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
-              <div class="person-details">
-                <div class="row">
-                  <div class="col-9">
-                    <div class="text">
-                      <h2>YOUR PROFILE</h2>
-                      <p class="name">Name: Name</p>
-                      <p class="username">Username: USername</p>
-                      <p class="email">Email: email</p>
-                    </div>
-                  </div>
-                  <div class="col-3">
-                    <div class="avatar text-end">
-                      <img class="img-fluid avatar" src="assets/images/backoffice/avatar.png" alt="avatar">
-                    </div>
-                  </div>
-                </div>
-                <div class="text-center">
-                  <a href="#" class="btn btn-blue">Edit Profile</a>
-                </div>
+          </div>
+          <div class="col-xl-8 mt-xl-0 mt-2 order-xl-2 order-1">
+            <div class="backoffice-video-section mb-4">
+              <h2>WATCH VIDEOS BELOW TO GET STARTED</h2>
+              <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/G5RpJwCJDqc" allow="autoplay; " allowfullscreen></iframe>
               </div>
             </div>
           </div>
         </div>
-        <div class="economy py-4">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-6">
-                  <div class="reward h-100">
-                    <h6>$0.00</h6>
-                    <p>Total Rewards Earned</p>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="reward-date h-100">
-                    <h6>7/8/22</h6>
-                    <p>Renewal Date</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 pt-3 pt-lg-0">
-              <div class="row">
-                <div class="col-6">
-                  <div class="Referral h-100">
-                    <h6>0</h6>
-                    <p>Total Referrals</p>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="Balance h-100">
-                    <h6>$0.00</h6>
-                    <p>Account Balance</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="button-groups row gy-md-0 gy-3 gx-4 justify-content-between">
-          <div class="col-md-4">
-            <div class="button-parent">
-              <a href="#" class="btn btn-transactions">1. MAKE DEPOSIT</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="button-parent">
-              <a href="#" class="btn btn-transactions">2. ACTIVATE POSITION</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="button-parent">
-              <a href="#" class="btn btn-transactions">3. WITHDRAW</a>
-            </div>
-          </div>
-        </div>
-        <div class="refferral-link my-4 p-2">
+
+
+        <div class="refferral-link mb-4 p-2">
           <div class="content-body align-items-center justify-content-between">
             <div class="row">
               <div class="col-md-9">
                 <div class="d-flex p-0 align-items-center">
                   <img class="img-fluid" src="assets/images/backoffice/link-icon-png-14.png" width="50" alt="link-icon">
-                  <p class="d-flex align-items-center w-100 text-nowrap"><span class="d-md-inline d-none pe-2">SHAREABLE</span> REFERRAL LINK -
-                    <input type="text" value="https://www.google.com/" id="link-input" class="bg-transparent border-0 text-white fs-6 ms-4 w-100">
+                  <p class="d-flex align-items-center w-100 text-nowrap"><em><span class="d-md-inline d-none pe-2">SHAREABLE</span> REFERRAL LINK -</em>
+                    <input type="text" value="https://www.google.com/" id="link-input" class="bg-transparent border-0 text-white fs-6 ms-4 w-100" readonly>
                   </p>
                 </div>
               </div>
@@ -168,24 +102,83 @@
             </div>
           </div>
         </div>
-
-        <div class="backoffice-video-section">
-          <h2>WATCH VIDEOS BELOW TO GET STARTED</h2>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/G5RpJwCJDqc" allow="autoplay; " allowfullscreen></iframe>
+        <div class="economy mb-4">
+          <div class="row g-md-4 g-3">
+            <div class="col-xl-3 col-6">
+              <div class="reward h-100">
+                <h6>$0.00</h6>
+                <p>Total Rewards Earned</p>
               </div>
             </div>
-            <div class="col-lg-6 pt-3 pt-lg-0">
-              <div class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/U8tTdFrn08w" allow="autoplay; " allowfullscreen></iframe>
+            <div class="col-xl-3 col-6">
+              <div class="reward-date h-100">
+                <h6>0</h6>
+                <p>Positions</p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-6">
+              <div class="Referral h-100">
+                <h6>0</h6>
+                <p>Total Referrals</p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-6">
+              <div class="Balance h-100">
+                <h6>$0.00</h6>
+                <p>Account Balance</p>
               </div>
             </div>
           </div>
         </div>
+
+        <div class="spnsor-n-profile">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="sponsor-details-parent">
+                <div class="sponsor-details">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="text">
+                        <h2><em>YOUR SPONSOR</em></h2>
+                        <p class="name">Name: &lt;name &gt;</p>
+                        <p class="username">Username: &lt; username &gt;</p>
+                        <p class="email">Email: &lt;email &gt;</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <div class="person-details-parent">
+                <div class="person-details">
+                  <div class="row align-items-end">
+                    <div class="col-md-8 col-12">
+                      <div class="text">
+                        <h2><em>YOUR PROFILE</em></h2>
+                        <p class="name">Name: &lt;name &gt;</p>
+                        <p class="username">Username: &lt; username &gt;</p>
+                        <p class="email">Email: &lt;email &gt;</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 text-end mt-md-0 mt-1">
+                      <a href="#" class="btn btn-blue text-nowrap">Edit Profile</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="brand-container text-center p-5">
+          <img src="assets/images/backoffice/logo-lg.png" alt="logo" class="img-fluid w-75 mx-auto">
+        </div>
+
+
+
         <footer class="backoffice-footer pb-5">
-          <p class="footer-copyright text-center text-white fs-4"> © 2022 Recompense. All Rights Reserved</p>
+          <p class="footer-copyright text-center text-black fs-4"> © 2022 Blessed-Funds. All Rights Reserved</p>
         </footer>
       </div>
     </main>

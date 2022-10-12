@@ -1,19 +1,27 @@
 .spnsor-n-profile {
 
+   .person-details-parent,
+   .sponsor-details-parent {
+      background: linear-gradient(0deg, #0e63c3 0%, #fdfcfd 50%, #0e63c3 100%);
+      padding: 4px;
+      height: 100%;
+      border-radius: 10px;
+   }
+
    .person-details,
    .sponsor-details {
       padding: 20px;
       border-radius: 10px;
-      background: linear-gradient(0deg, rgba(#69028a, 0.4), #fff);
+      background: #fff;
       height: 100%;
 
       .text {
          h2 {
-            font-family: 'TahomaBold';
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
             font-size: 36px;
-            color: $color-white;
+            color: $color-black;
             margin-bottom: 10px;
-            text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 
             @media screen and (max-width: 1399px) {
                font-size: 26px;
@@ -30,11 +38,11 @@
          .name,
          .username,
          .email {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Arial Narrow', Arial, sans-serif;
             font-weight: 700;
             font-size: 26px;
-            color: $color-white;
-            line-height: 1.2;
+            color: $color-black;
+            line-height: 1.5;
 
             @media screen and (max-width: 1399px) {
                font-size: 20px;

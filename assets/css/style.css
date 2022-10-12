@@ -41,10 +41,6 @@ body {
   font-family: "CenturyGothic";
 }
 
-.back-office {
-  background: #e6e5e6;
-}
-
 .main-body {
   margin-top: 93px;
   width: calc(100% - 300px);
@@ -111,7 +107,7 @@ body {
 }
 
 .sideNav {
-  background: #102752;
+  background: #000;
   width: 280px;
   height: 100vh;
   padding-top: 93px;
@@ -150,8 +146,8 @@ body {
   color: #ffffff;
 }
 .sideNav .body-content ul li a:hover {
-  background: #ffffff;
-  color: #52036b;
+  background: #fff;
+  color: #000;
 }
 .sideNav .body-content ul li a:hover img {
   filter: invert(1);
@@ -159,28 +155,6 @@ body {
 
 /*===// end of layouts css === */
 /*=== components css start === */
-.footer-button {
-  font-family: "CenturyGothic";
-  font-size: 90px;
-  color: #fff;
-  background: linear-gradient(0deg, rgb(3, 108, 142) 0%, rgb(5, 59, 94) 100%);
-  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  padding: 10px;
-  transition: all 0.3s ease-in-out;
-  display: inline-block;
-  min-width: 300px;
-}
-@media screen and (max-width: 767px) {
-  .footer-button {
-    font-size: 40px;
-  }
-}
-.footer-button:hover {
-  background: #fff;
-  color: #ee84f2;
-}
-
 .btn-blue {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
@@ -203,7 +177,7 @@ body {
 }
 
 .button-groups .button-parent {
-  background: linear-gradient(90deg, #350445 0%, #fdfcfd 50%, #350445 100%);
+  background: linear-gradient(90deg, #0e63c3 0%, #fdfcfd 50%, #0e63c3 100%);
   padding: 5px;
 }
 @media screen and (max-width: 991px) {
@@ -212,17 +186,17 @@ body {
   }
 }
 .button-groups .button-parent .btn-transactions {
-  color: #fff;
-  background: linear-gradient(90deg, #41557a 0%, #4d517f 50%, #41557a 100%);
+  color: #000;
+  background: linear-gradient(90deg, #fff 0%, #fff 50%, #fff 100%);
   font-family: "TahomaBold";
   font-size: 24px;
   border-radius: 0;
-  padding: 5px 10px;
+  padding: 15px 10px;
   width: 100%;
   display: block;
 }
 .button-groups .button-parent .btn-transactions:hover {
-  background: linear-gradient(90deg, #350445 0%, #4d517f 50%, #350445 100%);
+  background: linear-gradient(90deg, #0c56a9 0%, #0e63c3 50%, #0c56a9 100%);
   color: #fff;
 }
 @media screen and (max-width: 1399px) {
@@ -236,117 +210,27 @@ body {
   }
 }
 
-.watch-video .section-heading {
-  font-family: "CenturyGothic";
-  font-size: 60px;
-  margin-top: -25px;
+.spnsor-n-profile .person-details-parent,
+.spnsor-n-profile .sponsor-details-parent {
+  background: linear-gradient(0deg, #0e63c3 0%, #fdfcfd 50%, #0e63c3 100%);
+  padding: 4px;
+  height: 100%;
+  border-radius: 10px;
 }
-@media screen and (max-width: 1199px) {
-  .watch-video .section-heading {
-    font-size: 35px;
-  }
-}
-
-.welcome-recompense {
-  padding: 180px 0 50px;
-  background: url(../images/homepage-image/backgrounds/welcome-bg.png) no-repeat top center/cover;
-}
-@media screen and (max-width: 991px) {
-  .welcome-recompense {
-    padding: 0px 0 50px;
-  }
-}
-@media screen and (max-width: 1199px) {
-  .welcome-recompense {
-    margin-top: -100px;
-  }
-}
-.welcome-recompense .section-heading {
-  font-family: "CenturyGothic";
-  font-size: 36px;
-  text-align: center;
-  color: #fff;
-}
-@media screen and (max-width: 991px) {
-  .welcome-recompense .section-heading {
-    padding-top: 240px;
-  }
-}
-.welcome-recompense .text .top-para {
-  font-family: "CenturyGothic";
-  font-size: 23px;
-}
-@media screen and (max-width: 991px) {
-  .welcome-recompense .text .top-para {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .welcome-recompense .text .top-para {
-    white-space: pre-line;
-  }
-}
-.welcome-recompense .text .bottom-para {
-  font-family: "CenturyGothic";
-  font-size: 30px;
-}
-@media screen and (max-width: 991px) {
-  .welcome-recompense .text .bottom-para {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .welcome-recompense .text .bottom-para {
-    white-space: pre-line;
-  }
-}
-.welcome-recompense .text .signature {
-  font-family: "GeorgiaBrush";
-  font-size: 48px;
-  padding-top: 10px;
-}
-
-.our-comp-plan {
-  padding: 50px 0;
-  background: url(../images/homepage-image/backgrounds/comp-plan.png) no-repeat top center/cover;
-}
-.our-comp-plan .section-header {
-  font-family: "CenturyGothic";
-  font-size: 70px;
-}
-@media screen and (max-width: 1199px) {
-  .our-comp-plan .section-header {
-    font-size: 40px;
-  }
-}
-.our-comp-plan .text {
-  padding-top: 35px;
-}
-.our-comp-plan .text ul li, .our-comp-plan .text ol li {
-  font-family: "CenturyGothic";
-  font-size: 30px;
-  line-height: 1.3;
-}
-@media screen and (max-width: 991px) {
-  .our-comp-plan .text ul li, .our-comp-plan .text ol li {
-    font-size: 20px;
-  }
-}
-
 .spnsor-n-profile .person-details,
 .spnsor-n-profile .sponsor-details {
   padding: 20px;
   border-radius: 10px;
-  background: linear-gradient(0deg, rgba(105, 2, 138, 0.4), #fff);
+  background: #fff;
   height: 100%;
 }
 .spnsor-n-profile .person-details .text h2,
 .spnsor-n-profile .sponsor-details .text h2 {
-  font-family: "TahomaBold";
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
   font-size: 36px;
-  color: #fff;
+  color: #000;
   margin-bottom: 10px;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width: 1399px) {
   .spnsor-n-profile .person-details .text h2,
@@ -372,11 +256,11 @@ body {
 .spnsor-n-profile .sponsor-details .text .name,
 .spnsor-n-profile .sponsor-details .text .username,
 .spnsor-n-profile .sponsor-details .text .email {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial Narrow", Arial, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  color: #fff;
-  line-height: 1.2;
+  color: #000;
+  line-height: 1.5;
 }
 @media screen and (max-width: 1399px) {
   .spnsor-n-profile .person-details .text .sp-name,
@@ -421,8 +305,10 @@ body {
 .economy .reward,
 .economy .reward-date {
   text-align: center;
-  padding: 10px;
-  color: #fff;
+  padding: 20px 10px;
+  color: #000;
+  border: 4px solid #0076a3;
+  border-radius: 4px;
 }
 .economy .Referral h6,
 .economy .Balance h6,
@@ -444,7 +330,7 @@ body {
 .economy .Balance p,
 .economy .reward p,
 .economy .reward-date p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial Narrow", Arial, sans-serif;
   font-weight: 700;
   font-size: 26px;
 }
@@ -456,21 +342,9 @@ body {
     font-size: 16px;
   }
 }
-.economy .reward {
-  background: #1a1e4c;
-}
-.economy .reward-date {
-  background: #321656;
-}
-.economy .Referral {
-  background: #42105d;
-}
-.economy .Balance {
-  background: #580866;
-}
 
 .refferral-link {
-  background: #52036b;
+  background: #034a6b;
 }
 .refferral-link p {
   font-family: "TahomaBold";
@@ -489,22 +363,18 @@ body {
   }
 }
 
-.backoffice-video-section {
-  padding-bottom: 50px;
-}
 .backoffice-video-section h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   font-style: italic;
-  color: #fff;
+  color: #000;
   text-align: center;
-  padding: 20px 0 40px;
+  padding-bottom: 10px;
 }
 @media screen and (max-width: 1399px) {
   .backoffice-video-section h2 {
-    font-size: 30px;
-    padding: 10px 0 25px;
+    font-size: 22px;
   }
 }
 

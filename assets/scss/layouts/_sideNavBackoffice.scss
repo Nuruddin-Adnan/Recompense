@@ -1,5 +1,5 @@
 .sideNav {
-   background: #102752;
+   background: $color-black;
    width: 280px;
    height: 100vh;
    padding-top: 93px;
@@ -37,8 +37,8 @@
                color: #ffffff;
 
                &:hover {
-                  background: #ffffff;
-                  color: $color-lavender;
+                  background: $color-white;
+                  color: $color-black;
 
                   img {
                      filter: invert(1);
